@@ -42,32 +42,32 @@
         <h2>Manfaat yang Kamu Dapatkan</h2>
         <h6>Dapatkan pengalaman belajar terbaik dengan fitur menarik di Ajar Uji</h6>
     </div>
-    <div class="row list-manfaat">
-        <div class="col parent">
+    <div class="row list-manfaat justify-content-center">
+        <div class="col-sm-2 parent">
             <img class="image1 ellipse-red" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/bank soal.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">20.000 lebih soal tersedia</div>
             <div class="text-manfaat">Ajar uji memiliki bank soal lengkap, dengan 20.000 lebih soal tersedia.</div>
         </div>
-        <div class="col parent">
+        <div class="col-sm-2 parent">
             <img class="image1 ellipse-orange" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 5.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan yang menarik</div>
             <div class="text-manfaat">Materi disakin dengan cara yang menarik, belajar jadi menyenangkan</div>
         </div>
-        <div class="col parent">
+        <div class="col-sm-2 parent">
             <img class="image1 ellipse-green" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 3.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Rekam perkembangan</div>
             <div class="text-manfaat">Perkembangan nilai dapat dengan mudah dilihat atau dipantau</div>
         </div>
-        <div class="col parent">
+        <div class="col-sm-2 parent">
             <img class="image1 ellipse-cyan" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 2.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan 4</div>
             <div class="text-manfaat">Ajar uji memiliki bank soal lengkap</div>
         </div>
-        <div class="col parent">
+        <div class="col-sm-2 parent">
             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/book.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan 5</div>
@@ -85,14 +85,9 @@
     </div>
     <div class="owl-carousel owl-theme mt-5">
         <div class="item"><img src="assets/sample.jpg" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
-        <div class="item"><img src="assets/monthly@2x.png" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
-        <div class="item"><img src="assets/monthly@2x.png" alt=""></div>
-        <div class="item"><img src="assets/Home Illustration.png" alt=""></div>
+        <div class="item"><img src="assets/sample1.jpg" alt=""></div>
+        <div class="item"><img src="assets/sample2.jpg" alt=""></div>
+        <div class="item"><img src="assets/sample3.jpg" alt=""></div>
     </div>
     <div class="white-section">
         <h2>Penawaran Terbaik</h2>
@@ -117,8 +112,8 @@
                 <div class="card shadow" style="width: 18rem;">
                     <div class="card-body">
                     <img class="promo" src="assets/Path 6712.png" alt="">
-                    <p class="promo-text">Penawaran Terbaik</p>
-                    <div class="col parent">
+                    <p class="promo-text font-weight-bold">Penawaran Terbaik</p>
+                        <div class="col parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/yearly.png" alt="ellipse">
                             <h4>Rp29.000/Bulan</h4>
@@ -131,7 +126,7 @@
             <div class="col-sm-4">
                 <div class="card shadow" style="width: 18rem;">
                     <div class="card-body">
-                    <div class="col parent">
+                        <div class="col parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/group.png" alt="ellipse">
                             <h4>Rp550.000/Bulan</h4>

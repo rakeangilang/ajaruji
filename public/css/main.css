@@ -96,10 +96,10 @@ nav .navbar-nav li a {
     margin-left: auto;
     margin-right: auto;
   }
-  .image2 {
+  .list-manfaat .image2 {
     position: absolute;
     top: 22px;
-    left: 95px;
+    left: 68px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -126,7 +126,7 @@ nav .navbar-nav li a {
 }
 
 .white-section {
-    height: 35vh;
+    height: 30vh;
     padding-top: 10vh;
     padding-left: 20vh;
     padding-right: 20vh;
@@ -137,15 +137,6 @@ nav .navbar-nav li a {
 
 .white-section h6 {
     padding-top: 3vh;
-}
-
-.carousel-area {
-    border: solid 3px red;
-    height: 50vh;
-}
-
-.owl-carousel .item {
-    border: solid 1px;
 }
 
 .penawaran {
@@ -160,12 +151,22 @@ nav .navbar-nav li a {
     text-align: center;
 }
 
-.penawaran .col-sm-4 {
-}
+.penawaran .image2 {
+    position: absolute;
+    top: 22px;
+    left: 93px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .penawaran .card {
     margin: 0 auto;
     height: 50vh;
+}
+
+.penawaran .card-body {
+    position: relative;
 }
 
 .penawaran .promo {
@@ -175,9 +176,13 @@ nav .navbar-nav li a {
 }
 
 .penawaran .promo-text {
-    padding-top: 0vh;
-    padding-left: 15vh;
-    transform: rotate(50deg);
+    position: absolute;
+    font-size: 14px;
+    margin-top: 1.5rem;
+    margin-left: 9.7rem;
+    transform: rotate(48deg);
+    width: max-content;
+    color: white;
 }
 
 .shadow {
