@@ -1,0 +1,246 @@
+nav .navbar-nav li a {
+    color: white !important;
+    margin-right: 5vh;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/Path 5374.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero-image {
+    margin-top: 5vh;
+}
+
+.hero-content {
+    margin-top: 15vh;
+    padding-left: 10vh;
+    padding-right: 15vh;
+    color: white;
+}
+
+.hero-content h6 {
+    padding-top: 3vh;
+}
+
+.pill-button {
+    background-color: white;
+    border: none;
+    color: #484eca;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.mulai-btn {
+    margin-top: 5vh;
+    padding: 1.5vh 7vh;
+}
+
+.navbar-custom {
+    background-color: #484eca;
+}
+
+.manfaat {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.manfaat h6 {
+    padding-top: 3vh;
+}
+
+.list-manfaat {
+    margin-top: 8vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.ellipse-red {
+    filter: invert(47%) sepia(29%) saturate(992%) hue-rotate(313deg) brightness(91%) contrast(93%);
+}
+
+.ellipse-orange {
+    filter: invert(51%) sepia(58%) saturate(631%) hue-rotate(357deg) brightness(120%) contrast(108%);
+}
+
+.ellipse-green {
+    filter: invert(26%) sepia(19%) saturate(7107%) hue-rotate(56deg) brightness(105%) contrast(56%);;
+}
+
+.ellipse-cyan {
+    filter: invert(55%) sepia(99%) saturate(1306%) hue-rotate(138deg) brightness(115%) contrast(96%);
+}
+
+.ellipse-blue {
+    filter: invert(55%) sepia(99%) saturate(1306%) hue-rotate(194deg) brightness(95%) contrast(96%);
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image2 {
+    position: absolute;
+    top: 22px;
+    left: 95px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.text-manfaat {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.demo {
+    background-color: #484eca;
+    color: white;
+    margin-top: 15vh;
+    padding-top: 10vh;
+    height: 45vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.demo h6 {
+    padding-top: 3vh;
+}
+
+.white-section {
+    height: 35vh;
+    padding-top: 10vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.white-section h6 {
+    padding-top: 3vh;
+}
+
+.carousel-area {
+    border: solid 3px red;
+    height: 50vh;
+}
+
+.owl-carousel .item {
+    border: solid 1px;
+}
+
+.penawaran {
+    height: 80vh;
+    width: 100%;
+    background-image: url("/assets/Group 1522.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: bottom;
+    padding-left: 25vh;
+    padding-right: 25vh;
+    text-align: center;
+}
+
+.penawaran .col-sm-4 {
+}
+
+.penawaran .card {
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.penawaran .promo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.penawaran .promo-text {
+    padding-top: 0vh;
+    padding-left: 15vh;
+    transform: rotate(50deg);
+}
+
+.shadow {
+    box-shadow: 1px 2px 3px 5px rgba(0, 0, 0, 0.06);
+    
+  }
+
+.footer-custom {
+    height: 40vh;
+    background-color: #484eca;
+    color: white;
+    padding-top: 6vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.footer-logo {
+    
+}
+
+.footer-address {
+    
+}
+
+.footer-address h5 {
+    margin-bottom: 2vh;
+}
+
+.footer-about {
+    
+}
+
+.footer-about h5 {
+    margin-bottom: 2vh;
+}
+
+.footer-social {
+    
+}
+
+.footer-social h5 {
+    margin-bottom: 2vh;
+}
+
+.tentang-item {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-item {
+    padding-bottom: 2vh;
+}
+
+.footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.copyright {
+    padding-left: 2vh;
+}
+
