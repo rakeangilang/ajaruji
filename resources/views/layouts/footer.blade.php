@@ -10,8 +10,8 @@
             </div>
             <div class="col-sm-2 footer-about">
                 <h5>About Us</h5>
-                <a href="#" class="tentang-item">Home</a> <br>
-                <a href="#" class="tentang-item">Privacy Policy</a>
+                <a href="#" class="about-link">Home</a> <br>
+                <a href="#" class="about-link">Privacy Policy</a>
             </div>
             <div class="col-sm-2 footer-social">
                 <h5>Contact</h5>
@@ -24,7 +24,7 @@
         </div>
         <hr/>
         <div class="row copyright">
-            Copyright Ajar Uji - All Right Reserved
+            Copyright Ajar Uji - All Rights Reserved
         </div>
     </div>
 </footer>
