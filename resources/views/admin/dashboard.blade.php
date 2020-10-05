@@ -20,9 +20,24 @@
 
 <body>
     @include('admin.layouts.sidebar')
-    
-    <div class="container-fluid" style="border: 3px solid red; padding-left: 13vw; max-width: 100vw; text-align: center;">
-    <p style="border: 1px solid;">abc</p>
+
+    <div class="container-fluid" style="border: 3px solid red; padding-left: 13vw; padding-top: 15vh; max-width: 100vw;">
+        <div class="card border-primary" style="background-color: whitesmoke; width: 65vw; margin: 0 auto; border-radius: 1rem; padding-top:1vh;">
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="usr">Judul:</label>
+                    <input type="text" class="form-control" id="usr">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Keterangan:</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Text dalam Button:</label>
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
