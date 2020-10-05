@@ -1,3 +1,9 @@
+html {
+    padding-right: 0;
+    margin-right:0;
+    border: 1px blue solid;
+}
+
 nav .navbar-nav li a {
     color: white !important;
     margin-right: 5vh;
@@ -61,6 +67,7 @@ nav .navbar-nav li a {
     margin-top: 8vh;
     margin-left: 10vh;
     margin-right: 10vh;
+    position: relative;
 }
 
 .ellipse-red {
@@ -87,6 +94,7 @@ nav .navbar-nav li a {
     position: relative;
     top: 0;
     left: 0;
+    margin: 0 auto;
   }
   .image1 {
     position: relative;
@@ -99,7 +107,7 @@ nav .navbar-nav li a {
   .list-manfaat .image2 {
     position: absolute;
     top: 22px;
-    left: 68px;
+    left: 46px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -206,7 +214,7 @@ nav .navbar-nav li a {
 #testimoni-section .image2 {
     position: absolute;
     top: 22px;
-    left: 93px;
+    left: 195px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -220,6 +228,14 @@ nav .navbar-nav li a {
 #testimoni-section .card-body {
     position: relative;
 }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
 .footer-custom {
     height: 40vh;

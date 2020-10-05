@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-default no-margin fixed-top" style="background-color: #484eca;">
+  <nav class="navbar navbar-default no-margin fixed-top" style="background-color: #484eca; height: 8vh;">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header fixed-brand">
          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
@@ -19,7 +19,7 @@
    </nav>
    <div id="wrapper">
       <!-- Sidebar -->
-      <div id="sidebar-wrapper" style="position: fixed; top: 11vh;">
+      <div id="sidebar-wrapper" style="position: fixed; top: 8vh;">
          <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
             <li class="">
                <a href="#"><span class="fa-stack pull-left"><i class="fa fa-window-minimize fa-stack-1x "></i></span>Navbar</a>

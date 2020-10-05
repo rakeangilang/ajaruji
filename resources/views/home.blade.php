@@ -36,7 +36,7 @@
                     <picture>
                         <source media="(max-width: 799px)" srcset="{{ $section2->logo1x }}">
                         <source media="(min-width: 800px)" srcset="{{ $section2->logo2x }}">
-                        <img src="{{ $section2->logo2x }}" alt="Brand logo">
+                        <img src="{{ $section2->logo2x }}" alt="Brand logo" style="max-width: 90%">
                     </picture>
                 </div>
             </div>
@@ -47,36 +47,47 @@
         <h2>Manfaat yang Kamu Dapatkan</h2>
         <h6>Dapatkan pengalaman belajar terbaik dengan fitur menarik di Ajar Uji</h6>
     </div>
-    <div class="row list-manfaat justify-content-center">
-        <div class="col-sm-2 parent">
+    <div class="row list-manfaat">
+        <div class="col">
+            <div class="parent" style="width: 10rem">
             <img class="image1 ellipse-red" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/bank soal.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">20.000 lebih soal tersedia</div>
             <div class="text-manfaat">Ajar uji memiliki bank soal lengkap, dengan 20.000 lebih soal tersedia.</div>
+            </div>
+            
         </div>
-        <div class="col-sm-2 parent">
+        <div class="col">
+            <div class="parent" style="width: 10rem;">
             <img class="image1 ellipse-orange" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 5.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan yang menarik</div>
             <div class="text-manfaat">Materi disakin dengan cara yang menarik, belajar jadi menyenangkan</div>
+            </div>
         </div>
-        <div class="col-sm-2 parent">
+        <div class="col">
+            <div class="parent" style="width: 10rem">
             <img class="image1 ellipse-green" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 3.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Rekam perkembangan</div>
             <div class="text-manfaat">Perkembangan nilai dapat dengan mudah dilihat atau dipantau</div>
+            </div>
         </div>
-        <div class="col-sm-2 parent">
+        <div class="col">
+            <div class="parent" style="width: 10rem">
             <img class="image1 ellipse-cyan" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/Group 2.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan 4</div>
             <div class="text-manfaat">Ajar uji memiliki bank soal lengkap</div>
+            </div>
         </div>
-        <div class="col-sm-2 parent">
+        <div class="col">
+            <div class="parent" style="width: 10rem">
             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
             <img class="image2" src="assets/book.png" alt="ellipse">
             <div class="text-manfaat font-weight-bold">Penjelasan 5</div>
             <div class="text-manfaat">Ajar uji memiliki bank soal lengkap</div>
+            </div>
         </div>
     </div>
     <div class="demo">
@@ -88,11 +99,12 @@
         <h2>Apa itu Ajar Uji?</h2>
         <h6>Ajar uji merupakan platform belajar online yang mempermudah siswa, guru, dan sekolah dalam melaksanakan kegiatan belajar dan mengajar. Ajar uji menyediakan kelas online, penjelasan yang disajikan dengan menarik, bank soal, mata pelajaran, dan kurikulum yang lengkap.</h6>
     </div>
-    <div id="tentang-carousel" class="owl-carousel owl-theme mt-5">
-        <div class="item"><img src="assets/sample.jpg" alt=""></div>
-        <div class="item"><img src="assets/sample1.jpg" alt=""></div>
-        <div class="item"><img src="assets/sample2.jpg" alt=""></div>
-        <div class="item"><img src="assets/sample3.jpg" alt=""></div>
+    <div id="tentang-carousel" class="owl-carousel owl-theme mt-5" style="padding: 0 10vw;">
+        <div class="item"><img src="assets/study1.jpg" alt=""></div>
+        <div class="item"><img src="assets/study2.jpg" alt=""></div>
+        <div class="item"><img src="assets/study3.jpg" alt=""></div>
+        <div class="item"><img src="assets/study4.jpg" alt=""></div>
+        <div class="item"><img src="assets/study5.jpg" alt=""></div>
     </div>
     <div class="white-section">
         <h2>Penawaran Terbaik</h2>
@@ -103,7 +115,7 @@
             <div class="col-sm-4">
                 <div class="card shadow" style="width: 18rem; border-radius: 0.5rem;">
                     <div class="card-body">
-                        <div class="col parent">
+                        <div class="parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/monthly.png" alt="ellipse">
                             <h4>Rp39.000/Bulan</h4>
@@ -118,7 +130,7 @@
                     <div class="card-body">
                         <img class="promo" src="assets/Path 6712.png" alt="">
                         <p class="promo-text font-weight-bold">Penawaran Terbaik</p>
-                        <div class="col parent">
+                        <div class="parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/yearly.png" alt="ellipse">
                             <h4>Rp29.000/Bulan</h4>
@@ -131,7 +143,7 @@
             <div class="col-sm-4">
                 <div class="card shadow" style="width: 18rem;">
                     <div class="card-body">
-                        <div class="col parent">
+                        <div class="parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/group.png" alt="ellipse">
                             <h4>Rp550.000/Bulan</h4>
@@ -148,7 +160,7 @@
         <h6>Ajar uji memiliki banyak keunggalan yang menjadi pilihan terbaik. Berikut kata mereka yang telah bergabung dan belajar dengan Ajar Uji:</h6>
     </div>
     <div id="testimoni-section">
-        ini card testimoni
+        
         @include('layouts.infinite-carousel')
     </div>
     @include('layouts.footer')
