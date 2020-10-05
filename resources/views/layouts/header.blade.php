@@ -1,5 +1,11 @@
 <nav class="navbar navbar-expand-sm navbar-custom">
-  <a class="navbar-brand" style="padding-left: 5vh;" href="#"><img src="assets/Logo Ajar Uji white-1.png" srcset="assets/Logo%20Ajar%20Uji%20white-1@2x.png 2x"  alt="nav_brand"></a>
+  <a class="navbar-brand" style="padding-left: 5vh;" href="#">
+  <picture>
+  <source media="(max-width: 799px)" srcset="{{ $navbar->logo1x }}">
+  <source media="(min-width: 800px)" srcset="{{ $navbar->logo2x }}">
+  <img src="{{ $navbar->logo2x }}" alt="Brand logo">
+</picture>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

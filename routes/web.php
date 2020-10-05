@@ -24,3 +24,7 @@ Route::get('/', function () {
 // });
 
 Route::get('/home', ShowHome::class);
+
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});

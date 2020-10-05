@@ -300,6 +300,7 @@ class SeedImagesData extends Migration
 
         DB::table('images')->insert($navbar_images);
         DB::table('images')->insert($section2_images);
+        DB::table('images')->insert($section3_images);
         DB::table('images')->insert($section5_images);
         DB::table('images')->insert($section6_images);
         DB::table('images')->insert($section7_images);

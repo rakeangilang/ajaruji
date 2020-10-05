@@ -22,20 +22,26 @@
 </head>
 
 <body class="antialiased">
-    {{ $navbar }}
+    {{ $test }}
     @include('layouts.header')
-    <div class="hero">
-        <div class="row">
-            <div class="col-6 hero-content">
-                <h1>{{ $section2->title }}</h1>
-                <h6 class="font-weight-bold">{{ $section2->description }}</h6>
-                <button type="button" class="btn pill-button mulai-btn font-weight-bold">{{ $section2->button}}</button>
-            </div>
-            <div class="col-6 hero-image">
-                <img src="assets/Home Illustration.png" alt="home_illustration">
+    <section id="section2">
+        <div class="hero">
+            <div class="row">
+                <div class="col-6 hero-content">
+                    <h1>{{ $section2->title }}</h1>
+                    <h6 class="font-weight-bold">{{ $section2->description }}</h6>
+                    <button type="button" class="btn pill-button mulai-btn font-weight-bold">{{ $section2->button}}</button>
+                </div>
+                <div class="col-6 hero-image">
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="{{ $section2->logo1x }}">
+                        <source media="(min-width: 800px)" srcset="{{ $section2->logo2x }}">
+                        <img src="{{ $section2->logo2x }}" alt="Brand logo">
+                    </picture>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="manfaat">
         <h2>Manfaat yang Kamu Dapatkan</h2>
@@ -110,8 +116,8 @@
             <div class="col-sm-4">
                 <div class="card shadow" style="width: 18rem;">
                     <div class="card-body">
-                    <img class="promo" src="assets/Path 6712.png" alt="">
-                    <p class="promo-text font-weight-bold">Penawaran Terbaik</p>
+                        <img class="promo" src="assets/Path 6712.png" alt="">
+                        <p class="promo-text font-weight-bold">Penawaran Terbaik</p>
                         <div class="col parent">
                             <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
                             <img class="image2" src="assets/yearly.png" alt="ellipse">
