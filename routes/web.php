@@ -23,4 +23,11 @@ Route::get('/', ShowHome::class);
 
 Route::prefix('admin')->group(function () {
     Route::resource('/navbar', 'App\Http\Controllers\admin\NavbarController');
+    Route::resource('/section2', 'App\Http\Controllers\admin\Section2Controller');
+    Route::resource('/section3', 'App\Http\Controllers\admin\Section3Controller');
+    Route::resource('/section4', 'App\Http\Controllers\admin\Section4Controller');
+    Route::resource('/section5', 'App\Http\Controllers\admin\Section5Controller');
+    Route::resource('/section6', 'App\Http\Controllers\admin\Section6Controller');
+    Route::resource('/section7', 'App\Http\Controllers\admin\Section7Controller');
+    Route::resource('/footer', 'App\Http\Controllers\admin\FooterController');
 });

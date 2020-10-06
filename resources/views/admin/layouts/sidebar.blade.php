@@ -22,28 +22,28 @@
       <div id="sidebar-wrapper" style="position: fixed; top: 8vh;">
          <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
             <li class="">
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-window-minimize fa-stack-1x "></i></span>Navbar</a>
+               <a href="/admin/navbar"><span class="fa-stack pull-left"><i class="fa fa-window-minimize fa-stack-1x "></i></span>Navbar</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-info-circle fa-stack-1x "></i></span>Section 2 - Hero</a>
+               <a href="/admin/section2"><span class="fa-stack pull-left"><i class="fa fa-info-circle fa-stack-1x "></i></span>Section 2 - Hero</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-sitemap fa-stack-1x "></i></span>Section 3 - Manfaat</a>
+               <a href="/admin/section3"><span class="fa-stack pull-left"><i class="fa fa-sitemap fa-stack-1x "></i></span>Section 3 - Manfaat</a>
             </li>
             <li>
-               <a href="#"> <span class="fa-stack pull-left"><i class="fa fa-info-circle fa-stack-1x "></i></span>Section 4 - Demo</a>
+               <a href="/admin/section4"> <span class="fa-stack pull-left"><i class="fa fa-info-circle fa-stack-1x "></i></span>Section 4 - Demo</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-picture-o fa-stack-1x "></i></span>Section 5 - Tentang</a>
+               <a href="/admin/section5"><span class="fa-stack pull-left"><i class="fa fa-picture-o fa-stack-1x "></i></span>Section 5 - Tentang</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-shopping-cart fa-stack-1x "></i></span>Section 6 - Penawaran</a>
+               <a href="/admin/section6"><span class="fa-stack pull-left"><i class="fa fa-shopping-cart fa-stack-1x "></i></span>Section 6 - Penawaran</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-users fa-stack-1x "></i></span>Section 7 - Testimoni</a>
+               <a href="/admin/section7"><span class="fa-stack pull-left"><i class="fa fa-users fa-stack-1x "></i></span>Section 7 - Testimoni</a>
             </li>
             <li>
-               <a href="#"><span class="fa-stack pull-left"><i class="fa fa-window-minimize fa-stack-1x "></i></span>Footer</a>
+               <a href="/admin/footer"><span class="fa-stack pull-left"><i class="fa fa-window-minimize fa-stack-1x "></i></span>Footer</a>
             </li>
          </ul>
       </div>
