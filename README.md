@@ -9,8 +9,17 @@
 
 ## Panduan Instalasi
 
-- Nyalakan xampp untuk Windows / buat folder baru di var/www/html untuk Linux
+- Nyalakan xampp untuk Windows / buat folder baru di ```var/www/html``` untuk Linux
 - ```git clone https://github.com/rakeangilang/ajaruji.git```
 - ```composer install```
-- Buat database mysql bernama 'ajaruji', lalu jalankan ```php artisan migrate```. / Import file ajaruji.sql di folder /database
+- Buat database mysql bernama 'ajaruji', lalu jalankan ```php artisan migrate```. atau Import file ajaruji.sql di folder /database
+- ```php artisan key:generate```
 - ```php artisan serve```
+
+## Akses Page
+- localhost:8000/ -> Landing Page
+- localhost:8000/admin/navbar -> CMS
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
