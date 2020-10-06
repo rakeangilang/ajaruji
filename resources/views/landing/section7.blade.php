@@ -43,7 +43,7 @@
                             <div class="card-body">
                                 <div class="col parent">
                                     <img class="image1 ellipse-blue" src="assets/Ellipse 281.png" alt="ellipse">
-                                    <img class="image2" src="{{ $section7->items[0]->images->path1 }}" alt="ellipse">
+                                    <img class="image2" src="{{ $section7->items[0]->images->path1 }}" alt="ellipse" style="max-width:50px">
                                     <h4 class="text-manfaat">{{ $section7->items[0]->item_title }}</h4>
                                     <div class="text-manfaat font-weight-bold" style="color: #484eca;">{{ $section7->items[0]->item_additional_info }}</div>
                                     <div class="text-manfaat">{{ $section7->items[0]->item_description }}</div>
