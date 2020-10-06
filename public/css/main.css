@@ -1,7 +1,6 @@
 html {
     padding-right: 0;
     margin-right:0;
-    border: 1px blue solid;
 }
 
 nav .navbar-nav li a {
@@ -9,7 +8,7 @@ nav .navbar-nav li a {
     margin-right: 5vh;
 }
 
-.hero {
+#hero {
     height: 100vh;
     width: 100%;
     background-image: url("/assets/Path 5374.png");
@@ -54,12 +53,12 @@ nav .navbar-nav li a {
     background-color: #484eca;
 }
 
-.manfaat {
+#manfaat {
     margin-top: 10vh;
     text-align: center;
 }
 
-.manfaat h6 {
+#manfaat h6 {
     padding-top: 3vh;
 }
 
@@ -103,16 +102,16 @@ nav .navbar-nav li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 150px;
   }
   .list-manfaat .image2 {
     position: absolute;
     top: 22px;
-    left: 46px;
+    left: 32%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 5vw;
-    min-width: 4vw;
+    max-width:60px;
   }
 
 .text-manfaat {
@@ -120,7 +119,7 @@ nav .navbar-nav li a {
     text-align: center;
 }
 
-.demo {
+#demo {
     background-color: #484eca;
     color: white;
     margin-top: 15vh;
@@ -131,7 +130,7 @@ nav .navbar-nav li a {
     text-align: center;
 }
 
-.demo h6 {
+#demo h6 {
     padding-top: 3vh;
 }
 
@@ -154,7 +153,7 @@ nav .navbar-nav li a {
 }
 
 
-.penawaran {
+#penawaran {
     height: 80vh;
     width: 100%;
     background-image: url("/assets/Group 1522.png");
@@ -166,13 +165,14 @@ nav .navbar-nav li a {
     text-align: center;
 }
 
-.penawaran .image2 {
+#penawaran .image2 {
     position: absolute;
     top: 22px;
-    left: 93px;
+    left: 39%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width:60px;
   }
 
 .card {
@@ -184,13 +184,13 @@ nav .navbar-nav li a {
     position: relative;
 }
 
-.penawaran .promo {
+#penawaran .promo {
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
-.penawaran .promo-text {
+#penawaran .promo-text {
     position: absolute;
     font-size: 14px;
     margin-top: 1.5rem;
@@ -215,11 +215,12 @@ nav .navbar-nav li a {
 
 #testimoni-section .image2 {
     position: absolute;
-    top: 22px;
-    left: 195px;
+    top: 20px;
+    left: 43%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width:60px;
   }
 
 #testimoni-section .card {

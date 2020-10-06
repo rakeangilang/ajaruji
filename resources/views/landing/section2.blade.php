@@ -1,4 +1,4 @@
-<div class="hero">
+<div id="hero">
             <div class="row">
                 <div class="col-6 hero-content">
                     <h1>{{ $section2->title }}</h1>
@@ -9,7 +9,7 @@
                     <picture>
                         <source media="(max-width: 799px)" srcset="{{ $section2->items[0]->images->path1 }}">
                         <source media="(min-width: 800px)" srcset="{{ $section2->items[0]->images->path2 }}">
-                        <img src="{{ $section2->items[0]->images->path2 }}" alt="Brand logo" style="max-width: 90%">
+                        <img src="{{ $section2->items[0]->images->path2 }}" alt="Hero image" style="max-width: 90%">
                     </picture>
                 </div>
             </div>

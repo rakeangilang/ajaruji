@@ -2,8 +2,8 @@
   <a class="navbar-brand" style="padding-left: 5vh;" href="#">
   <picture>
   <source media="(max-width: 1079px)" srcset="{{ $navbar->logo1x }}">
-  <source media="(min-width: 1080px)" srcset="{{ $navbar->logo2x }}">
-  <img src="{{ $navbar->logo2x }}" alt="Brand logo">
+  <source media="(min-width: 1080px)" srcset="{{ $navbar->logo2x }}" style="max-width: 100px">
+  <img src="{{ $navbar->logo2x }}" alt="Brand logo" style="max-width: 180px">
 </picture>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -22,7 +22,6 @@
 </head>
 
 <body class="antialiased">
-    {{ $section5 }}
     @include('layouts.header')
 
     <section id="section2">
