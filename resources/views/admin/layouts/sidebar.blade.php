@@ -4,7 +4,7 @@
          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
 <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
 </button>
-         <a class="navbar-brand" href="#"><img src="assets/Logo Ajar Uji white.png" alt="logo"></a>
+         <a class="navbar-brand" href="#"><img src="{{ asset('assets/Logo Ajar Uji white.png')}}" alt="logo"></a>
       </div>
       <!-- navbar-header-->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,17 +49,6 @@
       </div>
       <!-- /#sidebar-wrapper -->
       <!-- Page Content -->
-      <!-- <div style="text-align: center;">
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      aahahhaha <br> aahahhaha <br> aahahhaha <br>aahahhaha <br>aahahhaha <br>
-      </div> -->
       
       <!-- /#page-content-wrapper -->
    </div>

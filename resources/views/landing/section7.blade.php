@@ -33,7 +33,7 @@
 
                 <div class="row" style="padding: 1vh 0;">
                     <div class="col-sm-1">
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
                             <img src="assets/arrow.png" alt="" class="vertical-center">
                         </a>
 
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="col-sm-1">
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
                             <img src="assets/arrow-1.png" alt="" class="vertical-center">
                         </a>
 
@@ -81,7 +81,7 @@
             
                 <div class="row" style="padding: 1vh 0;">
                     <div class="col-sm-1">
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
                             <img src="assets/arrow.png" alt="" class="vertical-center">
                         </a>
                     </div>
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-sm-1">
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
                             <img src="assets/arrow-1.png" alt="" class="vertical-center">
                         </a>
                     </div>

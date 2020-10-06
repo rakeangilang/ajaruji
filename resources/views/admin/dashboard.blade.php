@@ -22,7 +22,7 @@
     @include('admin.layouts.sidebar')
 
     <div class="container-fluid" style="border: 3px solid red; padding-left: 13vw; padding-top: 15vh; max-width: 100vw;">
-        <div class="card border-primary" style="background-color: whitesmoke; width: 65vw; margin: 0 auto; border-radius: 1rem; padding-top:1vh;">
+        <div class="card border-primary" style="background-color: whitesmoke; width: 65vw; margin: 0 auto; border-radius: 0.3rem; padding-top:1vh;">
             <div class="card-body">
                 <div class="form-group">
                     <label for="usr">Judul:</label>

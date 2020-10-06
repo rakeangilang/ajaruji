@@ -148,9 +148,9 @@ nav .navbar-nav li a {
     padding-top: 3vh;
 }
 
-.tentang-carousel .item {
-    .owl-item { width : 10px !important; }
-}
+/* #tentang-carousel .item {
+    width : 10px !important;
+} */
 
 
 #penawaran {
@@ -249,20 +249,8 @@ nav .navbar-nav li a {
     padding-right: 10vh;
 }
 
-.footer-logo {
-    
-}
-
-.footer-address {
-    
-}
-
 .footer-address h5 {
     margin-bottom: 2vh;
-}
-
-.footer-about {
-    
 }
 
 .footer-about h5 {

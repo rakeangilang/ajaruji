@@ -61,13 +61,8 @@ class ShowHome extends Controller
         $items_arr = array();
         foreach ($items as $key => $item) {
             $images = Image::where('item_id', $item->id)->select('path', 'screen_size')->get();
-            //$images_obj = (object) array();
             $img_objects = new stdClass();
             foreach ($images as $key => $image) {
-                // $temp_image = array('path' . ($key+1) => $item->title, 'screen_size' . ($key+1) => $item->description);
-                // $object_image = (object) $temp_arr;
-
-                // $images_obj->append($object_image);
                 $temp = 'path' . ($key + 1);
                 $img_objects->$temp = str_replace(' ', '%20', $image->path);;
             }
@@ -87,7 +82,6 @@ class ShowHome extends Controller
 
     private function getFooter()
     {
-        // get footer items
         $footer_items = Item::where('section_id', 8)->select('id','description')->get();
         $footer = Footer::all()->first();
         foreach ($footer_items as $key => $item) {
@@ -101,15 +95,6 @@ class ShowHome extends Controller
                 $footer->setAttribute($temp, $image_path);
             }
         }
-
-
-        // $footer_items_id = Section::where('id', 1)->with('items')->first()->items[0]->id;
-        // $images = Item::where('id', $footer_items_id)->with('images')->first()->images;
-        // $footer = Footer::first();
-        // foreach ($images as $key=>$value) {
-        //     $image_path = str_replace(' ', '%20', $value->path);
-        //     $footer->setAttribute('logo' . ($key+1) . 'x', $image_path);
-        // }
 
         return $footer;
     }
