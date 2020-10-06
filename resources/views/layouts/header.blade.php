@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-sm navbar-custom">
   <a class="navbar-brand" style="padding-left: 5vh;" href="#">
   <picture>
-  <source media="(max-width: 799px)" srcset="{{ $navbar->logo1x }}">
-  <source media="(min-width: 800px)" srcset="{{ $navbar->logo2x }}">
+  <source media="(max-width: 1079px)" srcset="{{ $navbar->logo1x }}">
+  <source media="(min-width: 1080px)" srcset="{{ $navbar->logo2x }}">
   <img src="{{ $navbar->logo2x }}" alt="Brand logo">
 </picture>
   </a>

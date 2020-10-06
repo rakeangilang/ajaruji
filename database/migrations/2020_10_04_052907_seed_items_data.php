@@ -39,16 +39,7 @@ class SeedItemsData extends Migration
         ];
     
         $section3_data = [
-            [   //3-8
-                'section_id'=>3,
-                'item_number'=>0,
-                'title'=>null,
-                'description'=>null,
-                'additional_info'=>null,
-                'created_at'=>Carbon::now(),
-                'updated_at'=>Carbon::now()
-            ],
-            [
+            [   // 3-7
                 'section_id'=>3,
                 'item_number'=>1,
                 'title'=>'20.000 Lebih Soal Tersedia',
@@ -96,7 +87,7 @@ class SeedItemsData extends Migration
         ];
     
         $section5_data = [
-            [   // 9-13
+            [   // 8-12
                 'section_id'=>5,
                 'item_number'=>1,
                 'title'=>null,
@@ -144,16 +135,7 @@ class SeedItemsData extends Migration
         ];
 
         $section6_data = [
-            [   // 14-17
-                'section_id'=>6,
-                'item_number'=>0,
-                'title'=>'Rp39.000/Bulan',
-                'description'=>'Akses tak terhingga dengan berlangganan bulanan di Ajar Uji.',
-                'additional_info'=>'Bulanan',
-                'created_at'=>Carbon::now(),
-                'updated_at'=>Carbon::now()
-            ],
-            [   
+            [   // 13-15
                 'section_id'=>6,
                 'item_number'=>1,
                 'title'=>'Rp39.000/Bulan',
@@ -183,16 +165,7 @@ class SeedItemsData extends Migration
         ];
 
         $section7_data = [
-            [   // 18-22
-                'section_id'=>7,
-                'item_number'=>0,
-                'title'=>null,
-                'description'=>null,
-                'additional_info'=>null,
-                'created_at'=>Carbon::now(),
-                'updated_at'=>Carbon::now()
-            ],
-            [   
+            [   // 16-21
                 'section_id'=>7,
                 'item_number'=>1,
                 'title'=>'Ria Kamila',
@@ -227,15 +200,33 @@ class SeedItemsData extends Migration
                 'additional_info'=>'Siswa SD Bekasi',
                 'created_at'=>Carbon::now(),
                 'updated_at'=>Carbon::now()
+            ],
+            [
+                'section_id'=>7,
+                'item_number'=>5,
+                'title'=>'Syifa',
+                'description'=>'Ujian sekolahku sangat terbantu!',
+                'additional_info'=>'Siswi SD Magelang',
+                'created_at'=>Carbon::now(),
+                'updated_at'=>Carbon::now()
+            ],
+            [
+                'section_id'=>7,
+                'item_number'=>6,
+                'title'=>'Jodhi',
+                'description'=>'Murah, menarik, dan bermanfaat.',
+                'additional_info'=>'Siswa SMA Tangerang',
+                'created_at'=>Carbon::now(),
+                'updated_at'=>Carbon::now()
             ]
         ];
 
         $footer_data = [
-            [   // 23-25
+            [   // 22-25
                 'section_id'=>8,
                 'item_number'=>1,
                 'title'=>null,
-                'description'=>'info@ajaruji.com',
+                'description'=>null,
                 'additional_info'=>null,
                 'created_at'=>Carbon::now(),
                 'updated_at'=>Carbon::now()
@@ -244,7 +235,7 @@ class SeedItemsData extends Migration
                 'section_id'=>8,
                 'item_number'=>2,
                 'title'=>null,
-                'description'=>'ajaruji',
+                'description'=>'info@ajaruji.com',
                 'additional_info'=>null,
                 'created_at'=>Carbon::now(),
                 'updated_at'=>Carbon::now()
@@ -252,6 +243,15 @@ class SeedItemsData extends Migration
             [   
                 'section_id'=>8,
                 'item_number'=>3,
+                'title'=>null,
+                'description'=>'ajaruji',
+                'additional_info'=>null,
+                'created_at'=>Carbon::now(),
+                'updated_at'=>Carbon::now()
+            ],
+            [   
+                'section_id'=>8,
+                'item_number'=>4,
                 'title'=>null,
                 'description'=>'0812-1314-1516',
                 'additional_info'=>null,
